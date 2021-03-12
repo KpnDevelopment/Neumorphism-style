@@ -13,9 +13,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Neumorphic</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,19 +25,19 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Dropdown
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu mydropdown" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li>
-                                <hr class="dropdown-divider">
+                                <!-- <hr class="dropdown-divider"> -->
                             </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
@@ -56,7 +56,20 @@
 </header>
 
 <body>
-
+    <section class="home">
+        <div class="inner_banner layer" id="home" style="background-attachment: fixed">
+            <div class="container">
+                <div class="agileinfo-inner">
+                    <h2 class="text-center" style="color: rgba(0, 0, 0, 0.657)">
+                        You're in creamy shopping user interface
+                    </h2>
+                    <h1 class="text-center">23%<span>OFF</span></h1>
+                    <a href="#" class="btn check">Check Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="list-items" class="list-items">
     <!-- row start -->
     <div class="team">
 
@@ -264,7 +277,10 @@
     </div>
     <!-- row end -->
 
-    
+</section>
+<footer>
+    <h4>copyright kpndevelopments</h4>
+</footer>
     <!-- scripts -->
 
     <!-- JavaScript Bundle with Popper -->
