@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background-color: #e0e0e0 !important;
+
+}
+nav {
+
+    border-radius: 10px;
+background: #e0e0e0 !important;
+box-shadow:  23px 23px 46px #a8a8a8,
+             -23px -23px 46px #ffffff;
+}
+.container {
+    text-align: center;
+    justify-content: center;
+    padding: 2rem !important;
+}
+.row {
+    
+}
+.card {
+    margin-right: 2rem;
+border-radius: 39px !important;
+background: linear-gradient(145deg, #cacaca, #f0f0f0) !important;
+box-shadow:  5px 5px 25px #a8a8a8,
+             -5px -5px 25px #ffffff !important;
+}
+.mybtn {
+border-radius: 39px !important;
+background: linear-gradient(145deg, #cacaca, #f0f0f0) !important;
+box-shadow:  23px 23px 46px #a8a8a8,
+             -23px -23px 46px #ffffff !important;
+}
+.mysearch {
+    border-radius: 39px !important;
+background: #e0e0e0 !important;
+box-shadow:  10px 10px 20px #989898,
+             -10px -10px 20px #ffffff !important;
+}
+.mysearch:hover {
+border-radius: 39px !important;
+background: #e0e0e0 !important;
+box-shadow: inset 10px 10px 20px #bababa
+            inset -10px -10px 20px #ffffff !important;
+            color: #000;
+        
+}
