@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -44,7 +48,8 @@ nav {
 
 /* home start */
 .home {
-  margin-top: 4rem;
+  margin-top: 4.5rem;
+  text-align: center;
 }
 .inner_banner:after {
   content: "";
@@ -55,17 +60,18 @@ nav {
   height: 100%;
   width: 100%;
   z-index: -1;
+  text-align: center;
+  justify-content: center;
 }
 
 .inner_banner {
   text-align: center;
-    padding: 1rem;
+  padding: 1rem;
   height: 60vh;
   -webkit-background-size: 180%;
   -moz-background-size: 180%;
   -o-background-size: 180%;
   -ms-background-size: 180%;
-
   position: relative;
   background-size: 180%;
   background-position: center;
@@ -76,17 +82,33 @@ nav {
   box-shadow: 5px 5px 16px #c3c3c3, -5px -5px 16px #fdfdfd;
 }
 .agileinfo-inner h1 {
-  font-size: 10rem;
-  font-weight: 800;
+  font-size: 9rem;
+  font-weight: 900;
   color: rgba(37, 36, 36, 0.452);
+  font-family: 'Bangers', cursive;
   letter-spacing: 0;
 }
 .agileinfo-inner h2 {
   color: rgba(0, 0, 0, 0.459);
+  /* font-family: 'Redressed', cursive; */
+  font-family: 'Akaya Telivigala', cursive;
+  font-weight: 700;
+}
+.agileinfo-inner h4 {
+  padding: 5px;
+  font-family: 'Redressed', cursive;
+  color: rgba(58, 57, 57, 0.753);
+  margin: 1rem;
 }
 .agileinfo-inner span {
   font-size: 2rem;
   color: rgba(182, 175, 164, 0.931);
+}
+.agileinfo-inner h6 {
+  font-size: 12px;
+  text-align: end;
+  margin-top: 3rem;
+  color: rgba(94, 92, 92, 0.541);
 }
 .agileinfo-inner .check {
 width: 20rem;
@@ -95,6 +117,44 @@ height: 2.5rem;
   background: #e0e0e0 !important;
   box-shadow: 9px 9px 26px #c7c7c7, -9px -9px 26px #f9f9f9 !important;
 }
+.upi {
+  padding: 20px;
+  margin: 10px;
+}
+.sbi-img {
+width: 4rem;
+margin: 2px;
+}
+.icc-img {
+    width: 5rem;
+    margin: 2px;
+}
+.agileinfo-inner .sbi-img {
+  width: 4rem;
+  align-items: baseline ;
+}
+@media (max-width: 375px) {
+  .agileinfo-inner h1{
+    font-size: 5rem;
+  }
+  .agileinfo-inner .check{
+    width: 15rem;
+    height: 2.5rem;
+  }
+  .agileinfo-inner span{
+     font-size: 1rem;
+  }
+  .agileinfo-inner h4 {
+    font-size: 18px;
+  }
+  .sbi-img {
+    width: 2rem;
+  }
+  .icc-img {
+  width: 4rem;
+  }
+  }
+
 /* home end */
 
 /* list items  start*/
@@ -135,11 +195,20 @@ height: 2.5rem;
 footer{
   text-align: center; 
   justify-content: center; 
+  padding: 10px;
   border-radius: 10px;
   background: #e0e0e0 !important;
   box-shadow: 23px 23px 46px #a8a8a8, -23px -23px 46px #ffffff !important;
+  
 }
 footer h4 {
-    color: rgba(46, 44, 41, 0.534);
+    color: rgba(126, 102, 66, 0.534);
     text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+}
+@media (max-width: 375px) {
+  footer h4 {
+    font-size: 15px;
+  }
 }
