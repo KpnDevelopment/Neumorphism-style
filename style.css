@@ -18,11 +18,32 @@ nav {
 .nav-item a {
   font-weight: 600;
 }
+.mysearch {
+  border-radius: 39px !important;
+  background: #e0e0e0 !important;
+  box-shadow: 10px 10px 20px #989898, -10px -10px 20px #ffffff !important;
+}
+.mysearch:hover {
+  border-radius: 39px !important;
+  background: #e0e0e0 !important;
+  box-shadow: inset 10px 10px 20px #bababa inset -10px -10px 20px #ffffff !important;
+  color: #000;
+}
+.mydropdown {
+  padding: 8px !important;
+  border-radius: 10px !important;
+  background: #e0e0e0 !important;
+  box-shadow: 9px 9px 26px #c7c7c7, -9px -9px 26px #f9f9f9 !important;
+}
+.mydropdown li {
+  border-radius: 5px !important;
+  background: #e0e0e0 !important;
+  box-shadow: 10px 10px 20px #989898, -10px -10px 20px #ffffff !important;
+}
 /* navbar end */
 
 /* home start */
 .home {
-  padding: 1rem;
   margin-top: 4rem;
 }
 .inner_banner:after {
@@ -37,6 +58,7 @@ nav {
 }
 
 .inner_banner {
+  text-align: center;
     padding: 1rem;
   height: 60vh;
   -webkit-background-size: 180%;
@@ -64,7 +86,6 @@ nav {
 }
 .agileinfo-inner span {
   font-size: 2rem;
-  margin: 0;
   color: rgba(182, 175, 164, 0.931);
 }
 .agileinfo-inner .check {
@@ -77,58 +98,48 @@ height: 2.5rem;
 /* home end */
 
 /* list items  start*/
-
 .list-items {
-  padding-top: 5rem;
+  margin: 2rem;
 }
-.container {
-  text-align: center;
-  justify-content: center;
-  padding: 2rem !important;
+.card-group {
+  justify-content: center !important;
+}
+.row {
+  
+  justify-content: center !important;
 }
 .card {
-  margin-right: 2rem;
+  width: 20rem !important;
+  margin: 1rem;
   border-radius: 10px !important;
   background: linear-gradient(145deg, #cacaca, #f0f0f0) !important;
   box-shadow: 5px 5px 25px #a8a8a8, -5px -5px 25px #ffffff !important;
+  justify-content: center !important;
+  text-align: center;
 }
 .mybtn {
   border-radius: 5px !important;
   background: linear-gradient(145deg, #cacaca, #f0f0f0) !important;
   box-shadow: 23px 23px 46px #a8a8a8, -23px -23px 46px #ffffff !important;
 }
-.mysearch {
-  border-radius: 39px !important;
-  background: #e0e0e0 !important;
-  box-shadow: 10px 10px 20px #989898, -10px -10px 20px #ffffff !important;
-}
-.mysearch:hover {
-  border-radius: 39px !important;
-  background: #e0e0e0 !important;
-  box-shadow: inset 10px 10px 20px #bababa inset -10px -10px 20px #ffffff !important;
-  color: #000;
-}
-.mydropdown {
-  padding: 8px !important;
-  border-radius: 10px !important;
-  background: #e0e0e0 !important;
-  box-shadow: 9px 9px 26px #c7c7c7, -9px -9px 26px #f9f9f9 !important;
-}
-.mydropdown li {
-  border-radius: 5px !important;
-  background: #e0e0e0 !important;
-  box-shadow: 10px 10px 20px #989898, -10px -10px 20px #ffffff !important;
-}
+
+@media (min-width: 320px) {
+  .card {
+
+  }
+  }
+
 
 
 /* footer */
 footer{
-  text-align: center;  
-  padding: 1rem;
-   border-radius: 10px;
+  text-align: center; 
+  justify-content: center; 
+  border-radius: 10px;
   background: #e0e0e0 !important;
   box-shadow: 23px 23px 46px #a8a8a8, -23px -23px 46px #ffffff !important;
 }
 footer h4 {
     color: rgba(46, 44, 41, 0.534);
+    text-align: center;
 }
