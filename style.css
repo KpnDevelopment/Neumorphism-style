@@ -183,11 +183,11 @@ margin: 2px;
   box-shadow: 23px 23px 46px #a8a8a8, -23px -23px 46px #ffffff !important;
 }
 
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
   .card {
 
   }
-  }
+  } */
 
 
 
